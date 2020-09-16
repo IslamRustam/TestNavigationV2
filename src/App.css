@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir'), url('./assets/fonts/Avenir Roman.otf') format('woff');
+}
+
+body {
+    height: 812px;
+    width: 375px;
+    font-family: 'Avenir';
+}
+
+.wrapper {
+    display: flex;
+    height: 812px;
+    width: 375px;
+    border-top-left-radius: 52px;
+    background-color: #1F1B33;
+}
+
+.wrapper__screen {
+    overflow: hidden;
+}

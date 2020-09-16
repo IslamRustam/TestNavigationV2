@@ -1,0 +1,28 @@
+.container {
+    height: 812px;
+    width: 375px;
+    background-color: white;
+    border-top-left-radius: 48px;
+}
+
+.header {
+    display: flex;
+    height: 30px;
+    padding: 43px;
+}
+
+.header__h1 {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 5px;
+    color: #9F9FA0;
+    margin: 0px 0px 0px 35px;
+}
+
+.rotation {
+    transform: rotate(-7deg) translateX(42px) translateY(15px);
+    -moz-transform:    rotate(-7deg) translateX(42px) translateY(15px);
+    -ms-transform:     rotate(-7deg) translateX(42px) translateY(15px);
+    -o-transform:      rotate(-7deg) translateX(42px) translateY(15px);
+    -webkit-transform: rotate(-7deg) translateX(42px) translateY(15px);
+}
